@@ -1,7 +1,7 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def palindrome(word):
     txt_forward = word.replace(' ', '').upper()
-    txt_backward = word [::-1]
+    txt_backward = word [::-1].upper()
     if txt_forward == txt_backward:
         if txt_forward == '':
             return False
@@ -11,4 +11,4 @@ def palindrome(word):
         return False
 
 user_word = input()
-palindrome(user_word)
+print(palindrome(user_word))
