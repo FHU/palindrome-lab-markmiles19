@@ -1,4 +1,5 @@
 #REMOVE PASS AND FIX THIS FUNCTION
+#
 def palindrome(word):
     txt_forward = word.replace(' ', '').upper()
     txt_backward = word [::-1].replace(' ', '').upper()
